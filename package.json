@@ -1,0 +1,35 @@
+{
+  "name": "my-monaco-api-editor",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@codingame/esbuild-import-meta-url-plugin": "^1.0.2",
+    "@codingame/monaco-vscode-chat-extensions-notebook-task-terminal-testing-common": "^11.1.2",
+    "@codingame/monaco-vscode-configuration-service-override": "^11.1.2",
+    "@codingame/monaco-vscode-languages-service-override": "^11.1.2",
+    "@codingame/monaco-vscode-python-default-extension": "^11.1.2",
+    "@codingame/monaco-vscode-textmate-service-override": "^11.1.2",
+    "@codingame/monaco-vscode-theme-defaults-default-extension": "^11.1.2",
+    "@codingame/monaco-vscode-theme-service-override": "^11.1.2",
+    "monaco-editor": "npm:@codingame/monaco-vscode-editor-api@^11.1.2",
+    "monaco-languageclient": "^9.1.0",
+    "vscode": "npm:@codingame/monaco-vscode-api@^11.1.2",
+    "vscode-ws-jsonrpc": "^3.4.0",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.6",
+    "@types/vscode": "^1.96.0",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.5",
+    "vue-tsc": "^2.2.0"
+  }
+}
