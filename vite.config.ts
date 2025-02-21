@@ -15,6 +15,7 @@ export default defineConfig({
   optimizeDeps:{
     esbuildOptions: {
       plugins: [importMetaUrlPlugin]
-    }
+    },
+    include:['vscode-textmate', 'vscode-oniguruma']
   }
 })
