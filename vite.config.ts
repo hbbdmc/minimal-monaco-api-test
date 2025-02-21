@@ -6,6 +6,9 @@ import importMetaUrlPlugin from '@codingame/esbuild-import-meta-url-plugin'
 
 // https://vite.dev/config/
 export default defineConfig({
+  worker: {
+    format: 'es'
+  },
   plugins: [vue()],
   resolve:{
     alias:{
